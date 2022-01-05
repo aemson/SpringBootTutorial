@@ -255,7 +255,7 @@ server.port
 - In yaml or properties add the following
 
 -------------------------------------------------
--> # Spring Boot Change Context Path  <-
+-> # Change Context Path  <-
 =============
 
 ```
@@ -264,7 +264,7 @@ server.servlet.context-path
 - In yaml or properties add the following
 
 -------------------------------------------------
--> # Spring Boot Exception handling  <-
+-> # Exception handling  <-
 =============
 
 ```
@@ -272,6 +272,30 @@ server.servlet.context-path
 ```
 - Annotation for handling exceptions in specific handler classes and/or handler methods.
 - Handler methods which are annotated with this annotation are allowed to have very flexible signatures. 
+
+-------------------------------------------------
+-> # Security : Adding dependency <-
+=============
+
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+```
+- Need to add this `spring-boot-starter-security` 
+
+-------------------------------------------------
+-> # Security : Code <-
+=============
+
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+```
+- Need to add this `spring-boot-starter-security` 
 
 -------------------------------------------------
 -> # Conclusion  <-
