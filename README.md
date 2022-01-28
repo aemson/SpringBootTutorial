@@ -17,3 +17,6 @@
   $ mdp sample.md
   ```
 2. mdp tutorialSlides.md
+
+**Swagger Url**
+http://localhost:4040/demo/swagger-ui/index.html
